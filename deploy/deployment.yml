@@ -27,7 +27,7 @@ metadata:
   name: myjavaapp-service
 spec:
   selector:
-    app: myjavaapp
+    app: sprint-boot-app
   ports:
   - name: http
     port: 80
