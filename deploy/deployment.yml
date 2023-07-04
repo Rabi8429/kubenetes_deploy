@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myjavaapp
-        image: rabi4450/javaapp:v1
+        image: rabi4450/redditapp1:latest
         ports:
         - containerPort: 8080
 
