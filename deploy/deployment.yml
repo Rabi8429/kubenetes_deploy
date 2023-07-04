@@ -16,7 +16,7 @@ spec:
       - name: myjavaapp
         image: rabi4450/redditapp1:latest
         ports:
-        - containerPort: 9000
+        - containerPort: 3000
 
 ---
 apiVersion: v1
@@ -29,5 +29,5 @@ spec:
   ports:
   - name: http
     port: 80
-    targetPort: 9000
+    targetPort: 3000
   type: LoadBalancer
